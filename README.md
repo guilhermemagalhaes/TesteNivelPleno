@@ -19,15 +19,25 @@ Codigo elaborado durante processo seletivo em para vaga nível Pleno/Senior, o t
 ## Questões SQL
 
 1.	A procedure “SP_ERRO_DE_LOGICA” está com um ERRO DE LÓGICA. Corrija a mesma;
+
 2.	Crie uma tabela com o nome “TB_DADOS” na base de dados com as seguintes colunas:
+
       ● ID_DADO (Inteiro e com auto incremento – preenchimento obrigatório – Chave Primária);
+      
       ● NM_DADO (Texto com tamanho 100 – preenchimento obrigatório);
+      
       ● BT_ATIVO (Booleano – preenchimento obrigatório);
+      
       ● NM_USUARIO_CADASTRO (Texto com tamanho 1000 – preenchimento obrigatório);
+      
       ● DT_CADASTRO (Data e hora – preenchimento NÃO obrigatório);
-3.	Crie uma procedure com o nome “SP_INSERE_DADOS” que receba os valores da tabela criada na questão 2. A procedure deverá ATUALIZAR o registro caso o mesmo exista, caso contrário, deverá INSERIR o registro;      
+      
+3.	Crie uma procedure com o nome “SP_INSERE_DADOS” que receba os valores da tabela criada na questão 2. A procedure deverá ATUALIZAR o registro caso o mesmo exista, caso contrário, deverá INSERIR o registro;    
+
 4.	Criar uma view com o nome “VW_RETORNA_DADOS” que retorne os dados ATIVOS da tabela criada na questão 2;
+
 5.	Criar uma função com o nome “FN_RETORNA_DIA_SEMANA” que receba uma data e retorne o dia da semana correspondente POR EXTENSO (segunda, terça, etc.);
+
 6.	Tendo como base a tabela “TB_PROCESSAMENTO” (disponível no banco de dados), crie um algoritmo em SQL que irá dividir os contratos pendentes de execução em N lotes. Exemplo, se houver 100 contratos pendentes na tabela e o parâmetro for dividir em 10 lotes, a cada 10 registros na base, irá aumentar o número do lote.
 
 
