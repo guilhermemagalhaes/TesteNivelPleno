@@ -2,23 +2,21 @@
 
 Codigo elaborado durante processo seletivo em para vaga nível Pleno/Senior, o teste engloba questões de desenvolvimento .NET C# em Console, algoritmos SQL e resolução de Bugs.
 
-
-
-###Orientações 
+## Orientações 
 
 1. Executar o script Script_Gera_Base_Prova.sql antes de iniciar a prova.
 2. Salvar o arquivo excel Arquivo_Importacao.csv em uma pasta que você tenha permissões de leitura.
 
 
 
-##Questões .Net C#
+## Questões .Net C#
 
 1.	Crie um método para importação dos dados do arquivo Arquivo_Importacao.csv na tabela “TB_DADOS_CLIENTE”; 
 2. 	Criar um método que execute a Procedure “SP_RETORNA_DADOS_CLIENTE” e exiba o resultado. Obs.: A procedure está apresentando erro, ou seja, será necessário corrigir a mesma para que a aplicação funcione;
 3.  Desenvolva um algoritmo que receba um número e retorne verdadeiro se for par ou falso se for ímpar. Obs.: Se o candidato optar por operações aritméticas, a única operação aritmética permitida é a soma (+), NÃO É PERMITIDO USAR MOD (%). Se for utilizado a questão invalidada;
 4.  Um anagrama é a transposição de letras de palavra ou frase para formar uma outra palavra ou frase diferente (Natércia, de Catarina; amor, de Roma; Célia, de Alice; etc.). Desenvolva um algoritmo que receba duas Strings e retorne, verdadeiro se for um Anagrama, caso contrário, retorne falso. NÃO É PERMITIDO FAZER UM PALÍNDROMO.
 
-##Questões SQL
+## Questões SQL
 
 1.	A procedure “SP_ERRO_DE_LOGICA” está com um ERRO DE LÓGICA. Corrija a mesma;
 2.	Crie uma tabela com o nome “TB_DADOS” na base de dados com as seguintes colunas:
